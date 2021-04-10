@@ -105,7 +105,6 @@
         </select>
     </div>
     <!-- END: Pagination -->
-    {{-- {{dd($roles)}} --}}
     <div wire:model='isModalEditRole' class="modal" tabindex="-1" aria-hidden="true">
         <div class="flex flex-col">
             <div class="-my-2 py-2 overflow-x-auto sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-32">

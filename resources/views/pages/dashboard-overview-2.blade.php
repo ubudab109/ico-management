@@ -1,4 +1,4 @@
-@extends('../layout/' . $layout)
+@extends('../layout/side-menu')
 
 @section('subhead')
     <title>Dashboard - Midone - Tailwind HTML Admin Template</title>
@@ -42,7 +42,7 @@
                                 </div>
                                 <div class="mt-4 text-gray-600 dark:text-gray-600">Sales earnings this month after associated author fees, & before taxes.</div>
                                 <button class="btn btn-outline-secondary relative justify-start rounded-full mt-12">
-                                    Download Reports 
+                                    Download Reports
                                     <span class="w-8 h-8 absolute flex justify-center items-center bg-theme-1 text-white rounded-full right-0 top-0 bottom-0 my-auto ml-auto mr-0.5">
                                         <i data-feather="arrow-right" class="w-4 h-4"></i>
                                     </span>
@@ -175,19 +175,19 @@
                                     </div>
                                     <div class="mt-5">
                                         <div class="flex items-center">
-                                            <div class="w-2 h-2 bg-theme-11 rounded-full mr-3"></div> 
+                                            <div class="w-2 h-2 bg-theme-11 rounded-full mr-3"></div>
                                             <span class="truncate">17 - 30 Years old</span>
                                             <div class="h-px flex-1 border border-r border-dashed border-gray-300 mx-3 xl:hidden"></div>
                                             <span class="font-medium xl:ml-auto">62%</span>
                                         </div>
                                         <div class="flex items-center mt-4">
-                                            <div class="w-2 h-2 bg-theme-1 rounded-full mr-3"></div> 
+                                            <div class="w-2 h-2 bg-theme-1 rounded-full mr-3"></div>
                                             <span class="truncate">31 - 50 Years old</span>
                                             <div class="h-px flex-1 border border-r border-dashed border-gray-300 mx-3 xl:hidden"></div>
                                             <span class="font-medium xl:ml-auto">33%</span>
                                         </div>
                                         <div class="flex items-center mt-4">
-                                            <div class="w-2 h-2 bg-theme-12 rounded-full mr-3"></div> 
+                                            <div class="w-2 h-2 bg-theme-12 rounded-full mr-3"></div>
                                             <span class="truncate">>= 50 Years old</span>
                                             <div class="h-px flex-1 border border-r border-dashed border-gray-300 mx-3 xl:hidden"></div>
                                             <span class="font-medium xl:ml-auto">10%</span>
@@ -598,19 +598,19 @@
                                 </div>
                                 <div class="border-t border-gray-200 p-5">
                                     <div class="flex items-center">
-                                        <div class="w-2 h-2 bg-theme-11 rounded-full mr-3"></div> 
+                                        <div class="w-2 h-2 bg-theme-11 rounded-full mr-3"></div>
                                         <span class="truncate">UI/UX Workshop</span>
                                         <div class="h-px flex-1 border border-r border-dashed border-gray-300 mx-3 xl:hidden"></div>
                                         <span class="font-medium xl:ml-auto">23th</span>
                                     </div>
                                     <div class="flex items-center mt-4">
-                                        <div class="w-2 h-2 bg-theme-1 dark:bg-theme-10 rounded-full mr-3"></div> 
+                                        <div class="w-2 h-2 bg-theme-1 dark:bg-theme-10 rounded-full mr-3"></div>
                                         <span class="truncate">VueJs Frontend Development</span>
                                         <div class="h-px flex-1 border border-r border-dashed border-gray-300 mx-3 xl:hidden"></div>
                                         <span class="font-medium xl:ml-auto">10th</span>
                                     </div>
                                     <div class="flex items-center mt-4">
-                                        <div class="w-2 h-2 bg-theme-12 rounded-full mr-3"></div> 
+                                        <div class="w-2 h-2 bg-theme-12 rounded-full mr-3"></div>
                                         <span class="truncate">Laravel Rest API</span>
                                         <div class="h-px flex-1 border border-r border-dashed border-gray-300 mx-3 xl:hidden"></div>
                                         <span class="font-medium xl:ml-auto">31th</span>
