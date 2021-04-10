@@ -19,6 +19,7 @@ class UserSeeder extends Seeder
         // Default credentials
         \App\Models\User::insert([
             [
+                'id' => 1,
                 'name' => 'Superadmin',
                 'email' => 'superadmin@admin.com',
                 'email_verified_at' => now(),
@@ -26,10 +27,18 @@ class UserSeeder extends Seeder
                 'gender' => 'male',
                 'active' => 1,
                 'remember_token' => Str::random(10)
+            ],
+            [
+                'id' => 2,
+                'name' => 'Investor',
+                'email' => 'investor@investor.com',
+                'email_verified_at' => now(),
+                'password' => Hash::make('123123123'), // password
+                'gender' => 'male',
+                'active' => 1,
+                'remember_token' => Str::random(10)
             ]
-        ]);
 
-        // Fake users
-        User::factory()->times(9)->create();
+        ]);
     }
 }

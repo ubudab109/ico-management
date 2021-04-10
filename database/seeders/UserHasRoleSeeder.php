@@ -15,9 +15,17 @@ class UserHasRoleSeeder extends Seeder
     public function run()
     {
         $data = [
-            'role_id' => 1,
-            'user_id' => 1,
-            'user_type' => 'App\Models\User',
+            [
+                'role_id' => 1,
+                'user_id' => 1,
+                'user_type' => 'App\Models\User',
+            ],
+
+            [
+                'role_id' => 2,
+                'user_id' => 2,
+                'user_type' => 'App\Models\User',
+            ]
         ];
 
         DB::table('role_user')->insert($data);
